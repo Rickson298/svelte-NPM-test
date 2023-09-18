@@ -1,3 +1,3 @@
-import Button from '../components/Button.svelte';
+import Button from './Button.svelte';
 
 export { Button };
