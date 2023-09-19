@@ -1,6 +1,6 @@
 {
   "name": "svelte-lib-test-rp",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
@@ -62,6 +62,5 @@
   "svelte": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
-  "readme": "ERROR: No README data found!",
-  "_id": "svelte-lib-test-rp@0.0.8"
+  "readme": "ERROR: No README data found!"
 }
