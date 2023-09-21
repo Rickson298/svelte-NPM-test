@@ -15,9 +15,9 @@
 		"build-storybook": "storybook build",
 		"chromatic": "npx chromatic --project-token=chpt_52dc5c661f1a18b"
 	},
-	"main": "./dist/index.js",
+	"main": "./lib/index.js",
 	"files": [
-		"dist",
+		"lib",
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*",
 		"!dist/**/*.stories.*"
@@ -54,8 +54,8 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2"
 	},
-	"svelte": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"svelte": "./lib/index.js",
+	"types": "./lib/index.d.ts",
 	"type": "module",
 	"readme": "ERROR: No README data found!"
 }
